@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col-lg-12">
+        <div class="input-group">
+            <span class="input-group-btn">
+                <button class="btn btn-secondary" type="button" ng-click="sort = 'date'">&DownArrow;</button>
+            </span>
+            <input type="text" class="form-control" placeholder="Szukaj" ng-model="filter.title">
+            <span class="input-group-btn">
+                <button class="btn btn-secondary" type="button" ng-click="sort = '-date'">&UpArrow;</button>
+            </span>
+        </div>
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-lg-12">
+        <div class="list-group">
+            <a ng-href="/#/training/{{training.id}}" class="list-group-item" ng-repeat="training in trainings |filter: filter.title| orderBy:sort">
+                <span class="label label-info label-pill pull-xs-right"></span>
+                <h4 class="list-group-item-heading">{{training.title}}</h4>
+                <h5>{{training.date | date:'yyyy-MM-dd HH:mm:ss'}}</h5>
+                <p class="list-group-item-text">{{training.description}}</p>
+            </a>
+        </div>
+    </div>
+</div>

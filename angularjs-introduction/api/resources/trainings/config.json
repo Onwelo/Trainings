@@ -1,0 +1,61 @@
+{
+	"type": "Collection",
+	"properties": {
+		"title": {
+			"name": "title",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "title",
+			"order": 0
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "description",
+			"order": 1
+		},
+		"agenda": {
+			"name": "agenda",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "agenda",
+			"order": 2
+		},
+		"location": {
+			"name": "location",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "location",
+			"order": 3
+		},
+		"date": {
+			"name": "date",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "date",
+			"order": 4
+		},
+		"duration": {
+			"name": "duration",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "duration",
+			"order": 5
+		},
+		"prelegent": {
+			"name": "prelegent",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "prelegent",
+			"order": 6
+		}
+	}
+}

@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "title": "Angular JS - Wprowadzenie",
+        "description": "Wprowadzenie do frameworka AngularJS. Praktyka i teoria.",
+        "agenda": [
+            {
+                "dateStart": "2016-02-28T09:00:00.000Z",
+                "dateEnd": "2016-02-28T11:00:00.000Z",
+                "title": "Część teoretyczna",
+                "topics": [
+                    "Czym jest Angular?",
+                    "zalety i wady",
+                    "pojęcia, koncepcje i wzorce projektowe",
+                    "moduły",
+                    "serwisy"
+                ]
+            },
+            {
+                "dateStart": "2016-02-28T11:00:00.000Z",
+                "dateEnd": "2016-02-28T12:00:00.000Z",
+                "title": "Część praktyczna —  praca z aplikacją „Rezerwacja Szkolenia",
+                "topics": [
+                    "konfiguracja środowiska deweloperskiego",
+                    "omówienie organizacji kodu oraz narzędzi deweloperskich"
+                ]
+            },
+            {
+                "dateStart": "2016-02-28T12:00:00.000Z",
+                "dateEnd": "2016-02-28T13:00:00.000Z",
+                "title": "Przerwa obiadowa",
+                "topics": []
+            },
+            {
+                "dateStart": "2016-02-28T13:00:00.000Z",
+                "dateEnd": "2016-02-28T17:00:00.000Z",
+                "title": "Część praktyczna —  ćwiczenia",
+                "topics": [
+                    "modyfikacja i rozszerzenie funkcjonalności",
+                    "implementacja testów jednostkowych i końcowych"
+                ]
+            }
+        ],
+        "location": {
+            "country": "PL",
+            "city": "Warszawa",
+            "address": "Karolkowa 30"
+        },
+        "date": "2016-03-07T09:00:00.000Z",
+        "duration": "PT8H",
+        "prelegent": {
+            "name": "Rafał",
+            "surname": "Zielonka",
+            "email": "rafal.zielonka@onwelo.com",
+            "www": null
+        }
+    },
+        {
+        "id": 2,
+        "title": "Spring for Dummies",
+        "description": "Wprowadzenie do frameworka Spring ...",
+        "agenda": [],
+        "location": {
+            "country": "PL",
+            "city": "Warszawa",
+            "address": "Karolkowa 30"
+        },
+        "date": "2016-03-11T09:00:00.000Z",
+        "duration": "P5D",
+        "prelegent": {
+            "name": "Marek",
+            "surname": "Łuniewski",
+            "email": "marek.luniewski@onwelo.com",
+            "www": null
+        }
+    }
+]
